@@ -65,13 +65,13 @@ body {
 
 @include laptop {
 	body {
-		width: 55%;
+		width: 65%;
 	}
 }
 
 @include desktop {
 	body {
-		width: 50%;
+		width: 60%;
 	}
 }
 

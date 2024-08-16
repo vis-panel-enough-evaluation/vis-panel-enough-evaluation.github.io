@@ -44,6 +44,7 @@ const Person = (props) => {
 			<div 
 				className={styles.tooltip} 
 				id={`tooltip-${name}`}
+				style={{zIndex: "1"}}
 			>
 				{bio}
 			</div>
