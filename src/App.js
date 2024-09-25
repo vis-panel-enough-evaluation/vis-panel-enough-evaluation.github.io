@@ -15,8 +15,8 @@ function App() {
 			<People title="Panelists" />
 			<People title="Organizers" />
 			<h3 className={styles.titleWrapper}>{"Post your questions!!"}</h3>
+			<p>{"We are collecting panel questions before the event, where the top-ranked questions will be asked to panelists during the panel."}</p>
 			<div className={styles.iframeWrapper}>
-
 				<iframe
 					src="https://app.sli.do/event/287tYVdXGPHsa9wxJfCAKn"
 					height="500px"
