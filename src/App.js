@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import People from './components/People';
-
+import Schedule from './components/Schedule';
 import styles from "./App.module.scss";
 
 function App() {
@@ -14,8 +14,10 @@ function App() {
 			</div> */}
 			<People title="Panelists" />
 			<People title="Organizers" />
+			<h3 className={styles.titleWrapper}>{"Schedule"}</h3>
+			<Schedule />
 			<h3 className={styles.titleWrapper}>{"Post your questions!!"}</h3>
-			<p>{"We are collecting panel questions before the event, where the top-ranked questions will be asked to panelists during the panel."}</p>
+			<p>{"This slido view will be used to gather questions during the panel."}</p>
 			<div className={styles.iframeWrapper}>
 				<iframe
 					src="https://app.sli.do/event/287tYVdXGPHsa9wxJfCAKn"

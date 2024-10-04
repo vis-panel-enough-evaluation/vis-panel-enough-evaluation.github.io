@@ -1,0 +1,20 @@
+@import "../globalStyle.scss";
+
+// make table left aligned
+
+table {
+		margin-left: 0px;
+}
+
+
+
+td {
+		text-align: left;
+		padding-right: 15px;
+}
+
+
+th {
+		text-align: left;
+		padding-right: 15px;
+}
