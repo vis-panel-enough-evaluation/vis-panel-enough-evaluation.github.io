@@ -17,7 +17,7 @@ function App() {
 			<h3 className={styles.titleWrapper}>{"Schedule"}</h3>
 			<Schedule />
 			<h3 className={styles.titleWrapper}>{"Post your questions!!"}</h3>
-			<p>{"This slido view will be used to gather questions during the panel."}</p>
+			<p>{"This slido view will be used to gather questions before the panel. Please submit questions in advance!!"}</p>
 			<div className={styles.iframeWrapper}>
 				<iframe
 					src="https://app.sli.do/event/287tYVdXGPHsa9wxJfCAKn"

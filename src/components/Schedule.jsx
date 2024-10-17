@@ -12,19 +12,19 @@ const Schedule = () => {
 // Panel Discussion and Q & A : 40 minutes
 // Closing by Organizers: 5 minutes 
 	return (
-		<div>
+		<div className={styles.tableWrapper}>
 			<table>
 				<tr>
-					<th>Time</th>
-					<th>Event</th>
+					<th className={styles.toprule}>Time</th>
+					<th className={styles.toprule}>Event</th>
 				</tr>
 				<tr>
-					<td style={{ paddingBottom: "10px" }}>10:15 PM - 10:20 PM</td>
-					<td style={{ paddingBottom: "10px" }}>Introduction by Organizers</td>
+					<td style={{ paddingBottom: "5px" }} className={styles.midrule}>10:15 PM - 10:20 PM</td>
+					<td style={{ paddingBottom: "5px" }} className={styles.midrule}>Introduction by Organizers</td>
 				</tr>
 				<tr>
-					<td>10:20 PM - 10:25 PM</td>
-					<td>Presentation by <b>Niklas Elmqvist</b></td>
+					<td style={{ paddingTop: "5px" }}>10:20 PM - 10:25 PM</td>
+					<td style={{ paddingTop: "5px" }}>Presentation by <b>Niklas Elmqvist</b></td>
 				</tr>
 				<tr>
 					<td>10:25 PM - 10:30 PM</td>
@@ -39,16 +39,16 @@ const Schedule = () => {
 					<td>Presentation by <b>Michael Sedlmair</b></td>
 				</tr>
 				<tr>
-					<td style={{ paddingBottom: "10px" }} >10:40 PM - 10:45 PM</td>
-					<td style={{ paddingBottom: "10px" }} >Presentation by <b>Cindy Xiong Bearfield</b></td>
+					<td style={{ paddingBottom: "5px", paddingTop: "5px"}} className={styles.midrule} >10:40 PM - 10:45 PM</td>
+					<td style={{ paddingBottom: "5px",  paddingTop: "5px" }} className={styles.midrule} >Presentation by <b>Cindy Xiong Bearfield</b></td>
 				</tr>
 				<tr>
-					<td style={{ paddingBottom: "10px" }} >10:45 PM - 11:25 PM</td>
-					<td style={{ paddingBottom: "10px" }} >Panel Discussion and Q & A</td>
+					<td style={{ paddingBottom: "5px", paddingTop: "5px" }} className={styles.midrule}  >10:45 PM - 11:25 PM</td>
+					<td style={{ paddingBottom: "5px", paddingTop: "5px" }} className={styles.midrule}  >Panel Discussion and Q & A</td>
 				</tr>
 				<tr>
-					<td>11:25 PM - 11:30 PM</td>
-					<td>Closing by Organizers</td>
+					<td className={styles.bottomrule}>11:25 PM - 11:30 PM</td>
+					<td className={styles.bottomrule}>Closing by Organizers</td>
 				</tr>
 			</table>
 

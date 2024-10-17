@@ -18,3 +18,30 @@ th {
 		text-align: left;
 		padding-right: 15px;
 }
+
+.tableWrapper {
+	// center the content wihtin the dive
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+.toprule {
+	// top border for the table
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+}
+
+.bottomrule {
+	// bottom border for the table
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+
+.midrule {
+	// middle border for the table
+	padding-top: 5px;
+	border-bottom: 1px solid grey;
+}
